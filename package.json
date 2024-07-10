@@ -2,6 +2,9 @@
   "name": "koishi-plugin-auto-group-del",
   "description": "适用于Koishi的自动退群插件",
   "version": "0.0.1",
+  "contributors": [
+    "TTsdzb <ttsdzb@outlook.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +12,23 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/TTsdzb/koishi-plugin-auto-group-del",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTsdzb/koishi-plugin-auto-group-del.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.17.9"
+    "koishi": "^4.17.9",
+    "koishi-plugin-adapter-onebot": "^6.5.8"
+  },
+  "koishi": {
+    "description": {
+      "zh": "被禁言自动退群，仅适用于 Onebot 平台"
+    }
   }
 }
